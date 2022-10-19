@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/RestCountryApp/static/js/main.f04c41c6.js",
+    "static/media/NunitoSans.woff": "/RestCountryApp/static/media/NunitoSans.48a939be8c1d4f578428.woff",
+    "index.html": "/RestCountryApp/index.html",
+    "main.f04c41c6.js.map": "/RestCountryApp/static/js/main.f04c41c6.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f04c41c6.js"
+  ]
+}
