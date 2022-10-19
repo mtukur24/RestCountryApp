@@ -126,11 +126,11 @@ function App() {
               filterCountry={filterCountry}  
             />
           </Route>
-          <Route path="/:cca3">
+          {/* <Route path="/:cca2">
             <CountryDetails 
               getCountries={getCountries} 
             />
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
     </ThemeProvider>

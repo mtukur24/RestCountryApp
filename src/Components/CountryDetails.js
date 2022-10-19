@@ -80,8 +80,8 @@ const Span2 = styled.button`
 `;
 
 const CountryDetails = ({ getCountries }) => {
-    const { cca3 } = useParams();
-    const country = getCountries.find(item => item.cca3 === cca3);
+    const { cca2 } = useParams();
+    const country = getCountries.find(item => item.cca2 === cca2);
 
     return ( 
         <>

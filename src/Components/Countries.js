@@ -73,7 +73,7 @@ const Countries = ({ getCountries, setGetCountries, searchCountry, filterCountry
             .then(data => {
                 setGetCountries(data);
                 setisError(null);
-                console.log(getCountries);
+                // console.log(getCountries);
             })
             .catch(err => {
                 setisError(err.message);
@@ -99,8 +99,8 @@ const Countries = ({ getCountries, setGetCountries, searchCountry, filterCountry
                         return false
                     }).map((country)=> {
                         return (
-                            <CountrtLink to={`/${country.cca3}`}> 
-                                <Cdiv key={country.cca3}>
+                            <CountrtLink to={`/${country.cca2}`}> 
+                                <Cdiv key={country.cca2}>
                                     <Img src={country.flags.png} alt='flag' /> 
                                     <H4>{country.name.common}</H4>
                                     <Details><b>Population: </b>{country.population}</Details>
